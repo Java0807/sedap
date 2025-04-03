@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "@/styles/customers.module.css";
 import CustomerData from "./CustomerData";
-
+import Image from "next/image";
 export default function CustomerTable() {
   return (
     <>
@@ -18,8 +18,8 @@ export default function CustomerTable() {
                     margin: "10px",
                   }}
                 >
-                  <img src="./Vector1.png" />
-                  <img src="./Vector2.png" />
+                  <Image src="./Vector1.png" alt="z" />
+                  <Image src="./Vector2.png" alt="z" />
                 </div>
               </div>
             </th>
@@ -33,8 +33,8 @@ export default function CustomerTable() {
                     margin: "10px",
                   }}
                 >
-                  <img src="./Vector1.png" />
-                  <img src="./Vector2.png" />
+                  <Image src="./Vector1.png" alt="z" />
+                  <Image src="./Vector2.png" alt="z" />
                 </div>
               </div>
             </th>
@@ -48,8 +48,8 @@ export default function CustomerTable() {
                     margin: "10px",
                   }}
                 >
-                  <img src="./Vector1.png" />
-                  <img src="./Vector2.png" />
+                  <Image src="./Vector1.png" alt="z" />
+                  <Image src="./Vector2.png" alt="z" />
                 </div>
               </div>
             </th>
@@ -63,8 +63,8 @@ export default function CustomerTable() {
                     margin: "10px",
                   }}
                 >
-                  <img src="./Vector1.png" />
-                  <img src="./Vector2.png" />
+                  <Image src="./Vector1.png" alt="z" />
+                  <Image src="./Vector2.png" alt="z" />
                 </div>
               </div>
             </th>
@@ -78,8 +78,8 @@ export default function CustomerTable() {
                     margin: "10px",
                   }}
                 >
-                  <img src="./Vector1.png" />
-                  <img src="./Vector2.png" />
+                  <Image src="./Vector1.png" alt="z" />
+                  <Image src="./Vector2.png" alt="z" />
                 </div>
               </div>
             </th>
@@ -93,8 +93,8 @@ export default function CustomerTable() {
                     margin: "10px",
                   }}
                 >
-                  <img src="./Vector1.png" />
-                  <img src="./Vector2.png" />
+                  <Image src="./Vector1.png" alt="z" />
+                  <Image src="./Vector2.png" alt="z" />
                 </div>
               </div>
             </th>

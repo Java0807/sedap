@@ -4,10 +4,6 @@ import Navigation from "../Navigation";
 import { useRouter } from "next/router";
 
 function MainLayout(props) {
-  const router = useRouter();
-  const date = new Date().getDate();
-  const month = new Date().getMonth();
-  const year = new Date().getFullYear();
   return (
     <main
       style={{
@@ -21,12 +17,6 @@ function MainLayout(props) {
         {/* <h1 style={{ display: router.asPath === "/" ? "block" : "none" }}>
           Dashboard
         </h1> */}
-        <div style={{ display: router.asPath === "/" ? "block" : "none" }}>
-          <h1 style={{ marginLeft: "20px" }}>Asilbek </h1>
-          <h1 style={{ marginLeft: "20px" }}>
-            {[date, "-", month, "-", year]}
-          </h1>
-        </div>
       </div>
       <div>{props.children}</div>
     </main>

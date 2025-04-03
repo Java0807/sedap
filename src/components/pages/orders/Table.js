@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "@/styles/order.module.css";
 import orderListData from "./Data";
+import Image from "next/image";
 
 export default function Table() {
   return (
@@ -18,8 +19,8 @@ export default function Table() {
                     margin: "10px",
                   }}
                 >
-                  <img src="./Vector1.png" />
-                  <img src="./Vector2.png" />
+                  <Image src="./Vector1.png" alt="z" />
+                  <Image src="./Vector2.png" alt="z" />
                 </div>
               </div>
             </th>
@@ -33,8 +34,16 @@ export default function Table() {
                     margin: "10px",
                   }}
                 >
-                  <img src="./Vector1.png" />
-                  <img src="./Vector2.png" />
+                  <Image
+                    src="./Vector1.png"
+                    alt="z
+                  "
+                  />
+                  <Image
+                    src="./Vector2.png"
+                    alt="z
+                  "
+                  />
                 </div>
               </div>
             </th>
@@ -48,8 +57,8 @@ export default function Table() {
                     margin: "10px",
                   }}
                 >
-                  <img src="./Vector1.png" />
-                  <img src="./Vector2.png" />
+                  <Image src="./Vector1.png" alt="z" />
+                  <Image src="./Vector2.png" alt="z" />
                 </div>
               </div>
             </th>
@@ -63,8 +72,8 @@ export default function Table() {
                     margin: "10px",
                   }}
                 >
-                  <img src="./Vector1.png" />
-                  <img src="./Vector2.png" />
+                  <Image src="./Vector1.png" alt="z" />
+                  <Image src="./Vector2.png" alt="z" />
                 </div>
               </div>
             </th>
@@ -78,8 +87,8 @@ export default function Table() {
                     margin: "10px",
                   }}
                 >
-                  <img src="./Vector1.png" />
-                  <img src="./Vector2.png" />
+                  <Image src="./Vector1.png" alt="z" />
+                  <Image src="./Vector2.png" alt="z" />
                 </div>
               </div>
             </th>
@@ -93,8 +102,8 @@ export default function Table() {
                     margin: "10px",
                   }}
                 >
-                  <img src="./Vector1.png" />
-                  <img src="./Vector2.png" />
+                  <Image src="./Vector1.png" alt="z" />
+                  <Image src="./Vector2.png" alt="z" />
                 </div>
               </div>
             </th>
@@ -119,9 +128,21 @@ function TableMap() {
           <td className={styles["td"]}>{item.location}</td>
           <td className={styles["td"]}>${item.amount}</td>
           <td className={styles["td"]}>
-            {item.status === 'On Delivery' ? (<div className={styles["onDelivery"]}>{item.status}</div>) : ''}
-            {item.status === 'New Order' ? (<div className={styles["newOrder"]}>{item.status}</div>) : ''}
-            {item.status === 'Delivered' ? (<div className={styles["delivered"]}>{item.status}</div>) : ''}
+            {item.status === "On Delivery" ? (
+              <div className={styles["onDelivery"]}>{item.status}</div>
+            ) : (
+              ""
+            )}
+            {item.status === "New Order" ? (
+              <div className={styles["newOrder"]}>{item.status}</div>
+            ) : (
+              ""
+            )}
+            {item.status === "Delivered" ? (
+              <div className={styles["delivered"]}>{item.status}</div>
+            ) : (
+              ""
+            )}
           </td>
         </tr>
       ))}

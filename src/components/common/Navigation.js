@@ -109,7 +109,7 @@ function Navigation(props) {
         <div className={styles["aside-header"]}>
           <Image
             src="/Sedap.png"
-            alt=""
+            alt="z"
             className={styles["logo"]}
             width={167}
             height={49}
@@ -140,7 +140,7 @@ function Navigation(props) {
             <p>Please, organize your menus through button bellow!</p>
             <button>+Add Menus</button>
           </div>
-          <img src="./illustration.png" alt="" />
+          <Image src="./illustration.png" alt="z" />
         </div>
         <div className={styles["about"]}>
           <p>Sedap Restaurant Admin Dashboard</p>

@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import MainLayout from "@/components/common/layouts/MainLayout";
 import styles from "@/styles/Home.module.css";
+import { useRouter } from "next/router";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,6 +16,10 @@ const geistMono = Geist_Mono({
 });
 
 export default function Dashboard() {
+  const router = useRouter();
+  const date = new Date().getDate();
+  const month = new Date().getMonth();
+  const year = new Date().getFullYear();
   return (
     <>
       <Head>
@@ -23,7 +28,10 @@ export default function Dashboard() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div></div>
+      <div style={{ display: router.asPath === "/" ? "block" : "none" }}>
+        <h1 style={{ marginLeft: "20px" }}>Asilbek </h1>
+        <h1 style={{ marginLeft: "20px" }}>{[date, "-", month, "-", year]}</h1>
+      </div>
     </>
   );
 }
