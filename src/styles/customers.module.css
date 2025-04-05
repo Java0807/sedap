@@ -8,10 +8,12 @@
   font-family: "Barlow", sans-serif;
   margin-left: 30px;
 }
+
 .calendar {
   display: flex;
   margin-left: 828px;
 }
+
 .status {
   display: flex;
   justify-content: center;
@@ -20,37 +22,44 @@
   background-color: white;
   border-radius: 12px;
 }
+
 .status img {
   width: 24px;
   height: 24px;
   margin: auto 0;
 }
+
 .status select {
   outline-style: none;
   border: none;
   font-size: 16px;
 }
+
 .th div {
   /* width: 100%; */
   display: flex;
   align-items: center;
   justify-content: left;
 }
+
 .th img {
   width: 10px;
   height: 6px;
 }
+
 .table {
   width: 100%;
   font-family: "Barlow", sans-serif;
   border-collapse: collapse;
   margin-left: 30px;
 }
+
 .th,
 .td {
   /* width: 100%; */
   padding: 0px 55px;
 }
+
 /* .td1 {
   text-align: center;
 } */
@@ -64,24 +73,30 @@
   border-radius: 15px;
   margin: 20px auto;
 }
+
 .tr {
   height: 70px;
   background-color: #2d9cdb;
   color: white;
+
 }
+
 .table .th:nth-child(1) {
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
 }
+
 .table .th:nth-child(6) {
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
 }
+
 .tr2 {
   height: 70px;
   background-color: white;
   /* align-items: center; */
 }
+
 .onDelivery {
   width: 150px;
   height: 50px;
@@ -92,6 +107,7 @@
   border-radius: 15px;
   color: #2d9cdb;
 }
+
 .newOrder {
   width: 150px;
   height: 50px;
@@ -102,6 +118,7 @@
   border-radius: 15px;
   color: #ff6d4d;
 }
+
 .delivered {
   width: 150px;
   height: 50px;
@@ -112,6 +129,19 @@
   border-radius: 15px;
   color: #177556;
 }
+
 .td1 {
   text-align: center;
+}
+
+tr:hover {
+  background-color: #F3F2F7;
+  cursor: pointer;
+
+}
+
+.tr:hover {
+  height: 70px;
+  background-color: #2d9cdb;
+  color: white;
 }
