@@ -140,7 +140,7 @@ function Navigation(props) {
             <p>Please, organize your menus through button bellow!</p>
             <button>+Add Menus</button>
           </div>
-          <Image src="./illustration.png" alt="z" />
+          <Image src="/illustration.png" width={76} height={90} alt="z" />
         </div>
         <div className={styles["about"]}>
           <p>Sedap Restaurant Admin Dashboard</p>

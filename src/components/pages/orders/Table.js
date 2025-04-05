@@ -19,8 +19,8 @@ export default function Table() {
                     margin: "10px",
                   }}
                 >
-                  <Image src="./Vector1.png" alt="z" />
-                  <Image src="./Vector2.png" alt="z" />
+                  <Image src="/Vector1.png" width={10} height={5} alt="z" />
+                  <Image src="/Vector2.png" width={10} height={5} alt="z" />
                 </div>
               </div>
             </th>
@@ -35,12 +35,16 @@ export default function Table() {
                   }}
                 >
                   <Image
-                    src="./Vector1.png"
+                    src="/Vector1.png"
+                    width={10}
+                    height={5}
                     alt="z
                   "
                   />
                   <Image
-                    src="./Vector2.png"
+                    src="/Vector2.png"
+                    width={10}
+                    height={5}
                     alt="z
                   "
                   />
@@ -57,8 +61,8 @@ export default function Table() {
                     margin: "10px",
                   }}
                 >
-                  <Image src="./Vector1.png" alt="z" />
-                  <Image src="./Vector2.png" alt="z" />
+                  <Image src="/Vector1.png" width={10} height={5} alt="z" />
+                  <Image src="/Vector2.png" width={10} height={5} alt="z" />
                 </div>
               </div>
             </th>
@@ -72,8 +76,8 @@ export default function Table() {
                     margin: "10px",
                   }}
                 >
-                  <Image src="./Vector1.png" alt="z" />
-                  <Image src="./Vector2.png" alt="z" />
+                  <Image src="/Vector1.png" width={10} height={5} alt="z" />
+                  <Image src="/Vector2.png" width={10} height={5} alt="z" />
                 </div>
               </div>
             </th>
@@ -87,8 +91,8 @@ export default function Table() {
                     margin: "10px",
                   }}
                 >
-                  <Image src="./Vector1.png" alt="z" />
-                  <Image src="./Vector2.png" alt="z" />
+                  <Image src="/Vector1.png" width={10} height={5} alt="z" />
+                  <Image src="/Vector2.png" width={10} height={5} alt="z" />
                 </div>
               </div>
             </th>
@@ -102,8 +106,8 @@ export default function Table() {
                     margin: "10px",
                   }}
                 >
-                  <Image src="./Vector1.png" alt="z" />
-                  <Image src="./Vector2.png" alt="z" />
+                  <Image src="/Vector1.png" width={10} height={5} alt="z" />
+                  <Image src="/Vector2.png" width={10} height={5} alt="z" />
                 </div>
               </div>
             </th>
