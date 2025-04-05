@@ -134,14 +134,14 @@
   text-align: center;
 }
 
-tr:hover {
+/* tr:hover {
   background-color: #F3F2F7;
   cursor: pointer;
 
-}
+} */
 
-.tr:hover {
+/* .tr:hover {
   height: 70px;
   background-color: #2d9cdb;
   color: white;
-}
+} */
